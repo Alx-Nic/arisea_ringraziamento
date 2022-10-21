@@ -1,41 +1,52 @@
 <template>
-  <v-container>
-    <v-row class="text-center">
-      <v-col cols="12" fill-height>
-        <v-img
-          :src="require('../assets/logoArisea.png')"
-          class="my-3"
-          contain
-          height="200"
-        />
-      </v-col>
+  <v-container class="foo fill-height">    
+      <v-row class="text-center">
+        <v-col cols="12" >
+          <v-img
+            :src="require('../assets/logoArisea.png')"
+            class="my-3"
+            contain
+            height="200"
+          />
+        </v-col>
 
-    <v-col cols="12">
-      <h1>Grazie !!!</h1>
-      <p>per aver partecipato alla festa !</p>
-    </v-col>
-    <v-col cols="12">
-      <p>Anche per te abbiamo un regalo</p>
-      <h2>Uno sconto di 10% per oranizare la tua festa perfetta</h2>
-    </v-col>
-    <v-col cols="12">
-      <v-btn @click="navigateToInstagram" color="pink accent-1">riscatta</v-btn>
-    </v-col>
-    </v-row>
+        <v-col cols="12">
+          <h1>Grazie !!!</h1>
+          <p>per aver partecipato alla festa !</p>
+          <p>Anche per te abbiamo un regalo</p>
+        </v-col>
+        <v-col cols="12">          
+          <h2>Uno sconto di 10% per oranizare la tua festa perfetta</h2>
+        </v-col>
+        <v-col cols="12">
+          <v-btn @click="navigateToInstagram" color="pink accent-1"
+            >riscatta</v-btn
+          >
+        </v-col>
+      </v-row>
   </v-container>
 </template>
 
 <script>
-  export default {
-    name: 'HelloWorld',
+export default {
+  name: "HelloWorld",
 
-    data: () => ({
-     
-    }),
-    methods: {
-      navigateToInstagram: function(){
-        window.location.href ='https://ig.me/m/ariseapartyinstyle'
-      }
+  data: () => ({}),
+  methods: {
+    navigateToInstagram: function () {
+      window.location.href = "https://ig.me/m/ariseapartyinstyle";
     },
-  }
+  },
+};
 </script>
+
+<style scoped>
+.foo {
+ 
+  background: url("@/assets/1496_BIRTHDAY2.png");
+  background-size: cover;
+  background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+}
+</style>
