@@ -22,6 +22,7 @@
           <v-btn @click="navigateToInstagram" color="pink accent-1"
             >riscatta</v-btn
           >
+          <h2>Non perdere l`occasione !</h2>
         </v-col>
       </v-row>
   </v-container>
