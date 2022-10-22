@@ -13,12 +13,12 @@
         </v-col>
 
         <v-col cols="12">
-          <h1>Grazie !!!</h1>
+          <h1>Grazie,</h1>
           <p>per aver partecipato alla festa !</p>
           <p>Anche per te abbiamo un regalo</p>
         </v-col>
         <v-col cols="12">
-          <h2>Uno sconto di 10% per oranizare la tua festa perfetta</h2>
+          <h2>Uno sconto di 10% per organizzare la tua festa perfetta.</h2>
         </v-col>
         <v-col cols="12">
           <v-btn @click="navigateToInstagram" color="#f2d1da">riscatta</v-btn>
